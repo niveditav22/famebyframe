@@ -1,0 +1,340 @@
+
+* {
+  font-family:Cambria, Georgia, 'Times New Roman', Times, serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+ 
+}
+
+body {
+  background-color: #121820!important;
+}
+
+p {
+  color: white;
+}
+
+li {
+  color:white;
+}
+
+.form-label{
+  color:white;
+}
+.login-cont {
+    margin-top: 70px;
+    background-color: #121820;
+    border-radius: 10px;
+    padding:20px;
+    
+  
+  }
+
+.login-title {
+  display: flex;
+  justify-content: center;
+  background-color: #cadf9e;
+  margin-top: 20px;
+  margin-left: 675px;
+  padding: 16px;
+  border-radius: 10px;
+  color: #1B4965;
+  
+}
+
+.login-cont .btn-primary {
+  border-radius: 5px; /* Rounded corners for the button */
+  background-color:#1B4965  ; /* Light blue background for the button */
+  border: none; /* No border for the button */
+  padding: 10px 20px; /* Padding inside the button */
+  font-weight: bold; /* Make button text bold */
+  color:white;
+}
+
+.login-cont .btn-primary:hover{
+  background-color:lightblue; ;
+  color:#1B4965
+
+}
+
+.error-login {
+  display: flex;
+  justify-content: center;
+  color: red;
+}
+
+
+.upload-title {
+    margin-top: 150px;
+    margin-left: 600px;
+    
+}
+.upload-cont {
+  margin-top: 50px;
+  background-color:#121820;
+}
+
+.error-upload {
+  display: flex;
+  justify-content: center;
+  color: red;
+}
+
+.file-btn{
+  color:lightblue;
+}
+
+.register-container{
+  margin-top: 0px;
+  
+  margin-right: 20px;
+}
+
+
+.register-title {
+  margin-top: 200px;
+  margin-left: 0px;
+  margin-bottom: 40px;
+  justify-content: center;
+  color:#8fb7ca;
+
+}
+
+.register-cont .btn-primary {
+  border-radius: 5px; /* Rounded corners for the button */
+  background-color:#1B4965  ; /* Light blue background for the button */
+  border: none; /* No border for the button */
+  padding: 10px 20px; /* Padding inside the button */
+  font-weight: bold; /* Make button text bold */
+  color:white;
+  margin-top:10px;
+}
+
+.register-cont .btn-primary:hover{
+  background-color:lightblue; ;
+  color:#1B4965
+
+}
+
+.error-register {
+  display: flex;
+  justify-content: center;
+  color: red;
+}
+
+
+
+.login-option{
+  display:flex;
+  justify-content: center;
+  margin-top:30px;
+}
+
+.login-link{
+  color:lightblue;
+  text-decoration: none;
+  
+}
+
+.login-link:hover{
+  color:#cadf9e;
+}
+
+.welcome-cont {
+  margin-left: 10px;
+  background-color: #F7F5E2;
+  padding: 0px;
+  margin-top:0px;
+}
+
+
+.welcome-heading {
+
+  padding: 20px;
+
+  justify-content: center;
+  color:#1B4965;
+}
+
+.feed-container {
+  margin-top: 150px;
+}
+
+/*navigation bar*/
+
+.navbar {
+  background-color: #121820 !important;
+}
+
+
+
+.nav-cont {
+  margin-right: 34px;
+  background-color: #121820;
+
+}
+
+.navbar-greeting {
+  color:cadetblue;
+  margin-left: 400px;
+  background-color: #121820
+  ;
+}
+
+.navbar-brand{
+  margin-left: 50px;
+  background-color: #121820;
+}
+
+
+
+/*user page*/
+.greeting-name {
+  margin-left: 80px;
+  color: cadetblue;
+}
+
+
+.caption {
+  display: block;  
+  justify-content: left;
+  left: 0px;
+  position: relative;
+}
+
+.username {
+  font-weight: bold; 
+  margin-left: 0px;
+  color:lightblue;
+}
+
+.caption-text {
+  display: inline; 
+  position: relative;
+  left: 0px;
+}
+
+.postdate-text{
+  font-style: italic;
+  font-size: 12px;
+}
+
+
+
+
+.upload-cont {
+  background-color: F7F5E2; /* Light blue color */
+  border: none; /* No border */
+  padding: 20px; /* Add some padding inside the box */
+  border-radius: 10px; /* Optional: Adds rounded corners to the box */
+}
+
+/* Additional styling for form elements inside .upload-cont */
+.upload-cont .form-control {
+  border-radius: 5px; /* Rounded corners for inputs */
+  border: 1px solid #a3d2fc; /* Light border for inputs */
+}
+
+.upload-cont .btn-primary {
+  border-radius: 5px; /* Rounded corners for the button */
+  background-color: #1B4965;/* Light blue background for the button */
+  border: none; /* No border for the button */
+  padding: 10px 20px; /* Padding inside the button */
+  color: white;
+  font-weight: bold; /* Make button text bold */
+  
+}
+
+.upload-cont .btn-primary:hover{
+  background-color:lightblue; ;
+  color:#1B4965;
+  
+}
+/* Centering the file input */
+.upload-cont input[type="file"] {
+  display: flex;
+  margin: 0px; /* Center horizontally */
+}
+
+.upload-title {
+  background-color: #cadf9e; /* Light blue color */
+  border: none; /* No border */
+  padding: 20px; /* Add some padding inside the box */
+  border-radius: 10px; /* Optional: Adds rounded corners to the box */
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+  color: #1B4965;
+}
+
+/* Additional styling for form elements inside .upload-cont */
+.upload-title .form-control {
+  border-radius: 5px; /* Rounded corners for inputs */
+  border: 1px solid #a3d2fc; /* Light border for inputs */
+}
+
+.upload-option {
+  display: flex;
+  justify-content: left;
+}
+
+.user-title {
+  background-color: #cadf9e;; /* Light blue color */
+  border: none; /* No border */
+  padding: 24px; /* Add some padding inside the box */
+  border-radius: 6px; /* Optional: Adds rounded corners to the box */
+  display: flex;
+  justify-content: center;
+  color: #1B4965;
+
+}
+
+.user-title .h2{
+  margin: 0px;
+  padding: 0px;
+  color: #1B4965;
+}
+
+.user-body {
+  /*background-color: #F7F5E2;*/
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.post-text {
+  display: flex;
+  justify-content: left;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color:white;
+
+}
+
+
+.feed-title {
+  background-color: #cadf9e; /* Light blue color */
+  border: none; /* No border */
+  padding: 20px; /* Add some padding inside the box */
+  border-radius: 4px; /* Optional: Adds rounded corners to the box */
+  display: flex;
+  justify-content: center;
+  color: #1B4965;
+
+}
+
+.feed-body {
+  /*background-color:#F7F5E2   ;*/
+  padding: 40px;
+  border-radius: 4px;
+}
+
+.v2-navbar { 
+  display: flex;
+  justify-content: left !important; 
+}
+
+.logo {
+  display: flex;
+  justify-content: left;
+}
+

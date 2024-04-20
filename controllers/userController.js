@@ -4,11 +4,24 @@ const Image = require('../models/Image');
 exports.registerUser = async (req, res) => {
     const { name, email, username } = req.body;
 
+    const emailRegex = /^[^@]+@[^@]+\.com$/;
+    const usernameRegex = /^[a-zA-Z0-9_.]+$/;
+
+
     try {
         if (!name || !email || !username) {
             throw new Error("Missing required fields.");
         }
 
+        if (!emailRegex.test(email)) {
+            req.flash('error', 'Invalid email format. Email must end with .com');
+            return res.redirect('/register');
+        }
+
+        if (!usernameRegex.test(username)) {
+            req.flash('error', 'Invalid username format. Only letters, numbers, and _ or . are allowed.');
+            return res.redirect('/register');
+        }
       
         const existingUser = await User.findUsername(username);
         if (existingUser) {
@@ -60,27 +73,6 @@ exports.loginUser = async (req, res) => {
 };
 
 
-
-/*exports.getUserPage = async (req, res) => {
-    try {
-        let user = req.session.user;
-        if (!user) {
-            const userId = req.session.userId;
-            if (!userId) {
-                return res.redirect('/login');
-            }
-            user = await User.findOneById(userId);
-            if (!user) {
-                return res.redirect('/login');
-            }
-            req.session.user = user;
-        }
-        res.render('userPage', { user });
-    } catch (error) {
-        console.error('Error in getting user page:', error);
-        res.status(500).send('Internal server error.');
-    }
-};*/
 
 exports.getUserPage = async (req, res) => {
     try {

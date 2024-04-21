@@ -3,16 +3,15 @@ const pool = require('../database');
 
 const Image = {
     saveToDatabase: async function(caption, altText, username, filename, userId) {
-        // Convert undefined parameters to null
+        
         caption = caption !== undefined ? caption : null;
         altText = altText !== undefined ? altText : null;
-        //username = username !== undefined ? username : null;
+        
         filename = filename !== undefined ? filename : null;
        
 
         try {
-            const postDate = new Date(); // Automatically generate the post date
-            // Database query to insert the image details
+            const postDate = new Date();
             console.log("Caption:", caption, "AltText:", altText, "Username:", username, "Filename:", filename);
 
             await pool.execute(

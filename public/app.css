@@ -43,11 +43,11 @@ li {
 }
 
 .login-cont .btn-primary {
-  border-radius: 5px; /* Rounded corners for the button */
-  background-color:#1B4965  ; /* Light blue background for the button */
-  border: none; /* No border for the button */
-  padding: 10px 20px; /* Padding inside the button */
-  font-weight: bold; /* Make button text bold */
+  border-radius: 5px; 
+  background-color:#1B4965  ; 
+  border: none; 
+  padding: 10px 20px; 
+  font-weight: bold; 
   color:white;
 }
 
@@ -101,11 +101,11 @@ li {
 }
 
 .register-cont .btn-primary {
-  border-radius: 5px; /* Rounded corners for the button */
-  background-color:#1B4965  ; /* Light blue background for the button */
-  border: none; /* No border for the button */
-  padding: 10px 20px; /* Padding inside the button */
-  font-weight: bold; /* Make button text bold */
+  border-radius: 5px;
+  background-color:#1B4965  ; 
+  border: none; 
+  padding: 10px 20px; 
+  font-weight: bold;
   color:white;
   margin-top:10px;
 }
@@ -223,25 +223,25 @@ li {
 
 
 .upload-cont {
-  background-color: F7F5E2; /* Light blue color */
-  border: none; /* No border */
-  padding: 20px; /* Add some padding inside the box */
-  border-radius: 10px; /* Optional: Adds rounded corners to the box */
+  background-color: F7F5E2;
+  border: none;
+  padding: 20px; 
+  border-radius: 10px; 
 }
 
-/* Additional styling for form elements inside .upload-cont */
+
 .upload-cont .form-control {
-  border-radius: 5px; /* Rounded corners for inputs */
-  border: 1px solid #a3d2fc; /* Light border for inputs */
+  border-radius: 5px; 
+  border: 1px solid #a3d2fc; 
 }
 
 .upload-cont .btn-primary {
-  border-radius: 5px; /* Rounded corners for the button */
-  background-color: #1B4965;/* Light blue background for the button */
-  border: none; /* No border for the button */
-  padding: 10px 20px; /* Padding inside the button */
+  border-radius: 5px; 
+  background-color: #1B4965;
+  border: none; 
+  padding: 10px 20px; 
   color: white;
-  font-weight: bold; /* Make button text bold */
+  font-weight: bold;
   
 }
 
@@ -250,27 +250,27 @@ li {
   color:#1B4965;
   
 }
-/* Centering the file input */
+
 .upload-cont input[type="file"] {
   display: flex;
-  margin: 0px; /* Center horizontally */
+  margin: 0px; 
 }
 
 .upload-title {
-  background-color: #cadf9e; /* Light blue color */
-  border: none; /* No border */
-  padding: 20px; /* Add some padding inside the box */
-  border-radius: 10px; /* Optional: Adds rounded corners to the box */
+  background-color: #cadf9e; 
+  border: none; 
+  padding: 20px; 
+  border-radius: 10px; 
   display: flex;
   justify-content: center;
   margin-top: 0;
   color: #1B4965;
 }
 
-/* Additional styling for form elements inside .upload-cont */
+
 .upload-title .form-control {
-  border-radius: 5px; /* Rounded corners for inputs */
-  border: 1px solid #a3d2fc; /* Light border for inputs */
+  border-radius: 5px;
+  border: 1px solid #a3d2fc;
 }
 
 .upload-option {
@@ -279,10 +279,10 @@ li {
 }
 
 .user-title {
-  background-color: #cadf9e;; /* Light blue color */
-  border: none; /* No border */
-  padding: 24px; /* Add some padding inside the box */
-  border-radius: 6px; /* Optional: Adds rounded corners to the box */
+  background-color: #cadf9e;; 
+  border: none; 
+  padding: 24px; 
+  border-radius: 6px; 
   display: flex;
   justify-content: center;
   color: #1B4965;
@@ -296,7 +296,6 @@ li {
 }
 
 .user-body {
-  /*background-color: #F7F5E2;*/
   padding: 40px;
   border-radius: 10px;
 }
@@ -312,10 +311,10 @@ li {
 
 
 .feed-title {
-  background-color: #cadf9e; /* Light blue color */
-  border: none; /* No border */
-  padding: 20px; /* Add some padding inside the box */
-  border-radius: 4px; /* Optional: Adds rounded corners to the box */
+  background-color: #cadf9e; 
+  border: none;
+  padding: 20px;
+  border-radius: 4px; 
   display: flex;
   justify-content: center;
   color: #1B4965;
@@ -323,7 +322,6 @@ li {
 }
 
 .feed-body {
-  /*background-color:#F7F5E2   ;*/
   padding: 40px;
   border-radius: 4px;
 }
